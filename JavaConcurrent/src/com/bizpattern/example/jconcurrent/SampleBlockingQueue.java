@@ -4,6 +4,12 @@ import java.util.Random;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+/**
+ * Simple Blocking queue with one producer (generates random integer)
+ * and two consumers. 
+ * @author Cookie
+ *
+ */
 public class SampleBlockingQueue {
 
 	class Producer implements Runnable {
