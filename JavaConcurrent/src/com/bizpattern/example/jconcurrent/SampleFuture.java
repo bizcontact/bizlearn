@@ -35,7 +35,7 @@ public class SampleFuture {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println("Wait is over. when we call get future will run its callable.");
+		System.out.println("Wait is over. When we call get, future will run its callable.");
 
 		try {
 			System.out.println("After 5 seconds wait, future result: " + future.get());
