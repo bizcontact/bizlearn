@@ -5,13 +5,14 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * Simple Blocking queue with one producer (generates random integer)
- * and two consumers. 
- * In this example two consumer thread are running parallel and any one can pick any value.
- * One value will not be picked up by two consumers.  
- * BlockingQueue implementations are designed to be used primarily for producer-consumer queues.
- * BlockingQueue implementations are thread-safe. All queuing methods achieve
- * this atomically using internal locks or other forms of concurrency control.
+ * Simple Blocking queue with one producer (generates random integer) and two
+ * consumers. In this example two consumer thread are running parallel and any
+ * one can pick any value. One value will not be picked up by two consumers.
+ * BlockingQueue implementations are designed to be used primarily for
+ * producer-consumer queues. BlockingQueue implementations are thread-safe. All
+ * queuing methods achieve this atomically using internal locks or other forms
+ * of concurrency control.
+ * 
  * @author Cookie
  *
  */
@@ -63,7 +64,7 @@ public class SampleBlockingQueue {
 		}
 
 		void consume(Integer x) {
-			System.out.println("Consumer id = " + id + ": Received Value = "+ x);
+			System.out.println("Consumer id = " + id + ": Received Value = " + x);
 		}
 	}
 

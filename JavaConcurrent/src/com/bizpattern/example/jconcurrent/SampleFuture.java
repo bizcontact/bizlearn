@@ -9,8 +9,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Simple future sample. How you register the future function and at its get it
- * executes the function you registered inside the registered future object.
+ * Simple future sample. How you register the future and a function (callback)
+ * defined inside it. How to then use this function as parameter and execute the
+ * call define in it in thread safe manner. Thread will be managed by Thread
+ * pool who takes care of all locks.
  * 
  * @author Cookie
  *
