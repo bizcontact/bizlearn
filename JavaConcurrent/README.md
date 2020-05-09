@@ -5,7 +5,7 @@ com.bizpattern.example.jconcurrent.SampleBlockingQueue
  * executes the function you registered inside the registered future object.
  com.bizpattern.example.jconcurrent.SampleFuture
  
- * How to make method generic. Passing generic method parameters.
+ * How to make method generic. Passing generic in  method parameters or using inside the method body.
  * In odder to do that you have to define the method header and put the generic in it.
  com.bizpattern.example.jlang.SampleGenerics
  
