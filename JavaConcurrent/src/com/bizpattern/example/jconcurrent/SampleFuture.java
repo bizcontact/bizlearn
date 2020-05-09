@@ -28,24 +28,15 @@ public class SampleFuture {
 				return "Result from future";
 			}
 		});
-<<<<<<< HEAD
 
-=======
-		
->>>>>>> c5bd0aab6c1cc6679ba24669278eabac5f43fdbb
 		System.out.println("Future is registered. Wait starting for 5 seconds");
 		try {
 			Thread.sleep(5000);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-<<<<<<< HEAD
-		System.out.println("Wait is over. When we call get, future will run its callable.");
-
-=======
 		System.out.println("Wait is over. when we call get future will run its callable.");
-		
->>>>>>> c5bd0aab6c1cc6679ba24669278eabac5f43fdbb
+
 		try {
 			System.out.println("After 5 seconds wait, future result: " + future.get());
 			System.out.println("Call future get again, future result: : " + future.get());
