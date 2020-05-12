@@ -1,7 +1,7 @@
 **_Simple Blocking queue with one producer (generating random integer) and two consumers.**_ 
 com.bizpattern.example.jconcurrent.SampleBlockingQueue
 
- **_Simple future sample. How you register the future and a function (callback) defined inside it.
+ **_Simple future sample. How you register a future and function (callback) defined inside it.
  How to use this function as parameter and execute the callback in thread safe manner.
  Thread will be managed by Thread pool and pool will take care of all the locks.**_
  com.bizpattern.example.jconcurrent.SampleFuture
